@@ -11,5 +11,5 @@
     //send email
     mail($admin_email, "New Form Submission", $message . ' - ' . $phone, "From:" . $email);
     
-    header('Location: https://crassflag.com/success.html');
+    header('Location: http://crassflag.com/success.html');
   }
